@@ -30,7 +30,7 @@ You'll also want to take into account that some demographic groups will make pur
 
 Because this is a capstone project, you are free to analyze the data any way you see fit. For example, you could build a machine learning model that predicts how much someone will spend based on demographics and offer type. Or you could build a model that predicts whether or not someone will respond to an offer. Or, you don't need to build a machine learning model at all. You could develop a set of heuristics that determine what offer you should send to each customer (i.e., 75 percent of women customers who were 35 years old responded to offer A vs 40 percent from the same demographic to offer B, so send offer A).
 
-# Data Sets
+## Data Sets
 
 The data is contained in three files:
 
@@ -60,3 +60,16 @@ Here is the schema and explanation of each variable in the files:
 * person (str) - customer id
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+## Running the code
+
+In order to run the code you need the following 
+* Python (versions 3.*)
+* jupyter notebook
+* pandas
+* numpy
+* math
+* json
+* matplotlib
+* seaborn
+* sklearn 
